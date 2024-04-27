@@ -23,6 +23,9 @@ public class VerifyBoard {
 	
 	public boolean isWinnerFound(int[][] array) {
 		// Added the new comment line to check
+		String st = "TestCheckString";
+
+		System.out.println("Print STring" + st);
 		boolean rowsHaveSameValue = false, colssHaveSameValue = false;
         for (int i = 0; i < array.length; i++) {
             if (rowColEquals(array[i])) {
