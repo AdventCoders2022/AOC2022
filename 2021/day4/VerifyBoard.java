@@ -20,6 +20,14 @@ public class VerifyBoard {
         }
         return true;
     }
+
+	/**
+		New method creation to test the capture
+	**/
+
+	public boolean testMethodCreationViaAPI() {
+		return null;
+	}
 	
 	public boolean isWinnerFound(int[][] array) {
 		// Added the new comment line to check
